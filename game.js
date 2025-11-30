@@ -7,7 +7,7 @@
 const USE_PLACEHOLDER_ART = false; // set true to use placeholder circles if a PNG fails to load
 
 const BALL_TYPES = [
-    { radius: 16, color: "#ff5555", img: "assets/ball1.png" },
+    { radius: 16, color: "#ff5555", img: "ball1.png" },
     { radius: 20, color: "#ff8855", img: "assets/ball2.png" },
     { radius: 24, color: "#ffaa55", img: "assets/ball3.png" },
     { radius: 28, color: "#55ff55", img: "assets/ball4.png" },
