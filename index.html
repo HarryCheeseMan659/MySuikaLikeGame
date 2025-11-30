@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Suika-like Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- SCORE CLOUD (top-left) -->
+<div id="scoreCloud">
+    <img src="assets/cloud.png" alt="score cloud">
+    <div id="scoreText">0</div>
+
+    <!-- small next-ball preview inside cloud -->
+    <div id="nextBallSmall">
+        <span>Next</span>
+        <img id="nextBallImg" src="" alt="next ball">
+    </div>
+</div>
+
+<!-- BALL ORDER LINEUP (RIGHT) -->
+<div id="ballLineup">
+    <img src="assets/lineup.png" alt="lineup">
+</div>
+
+<!-- GAME CANVAS (center) -->
+<canvas id="gameCanvas" width="500" height="700"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
